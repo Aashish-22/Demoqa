@@ -12,7 +12,7 @@ public class browser extends IMP {
 
 	public void bi() throws InterruptedException {
 
-		System.setProperty("webdriver.chrome.driver","C://Selenium//chromedriver1.exe");
+		System.setProperty("webdriver.chrome.driver","C://Selenium//chromedriver.exe");
 		driver=new ChromeDriver();
 		
 		driver.get("https://demoqa.com/");

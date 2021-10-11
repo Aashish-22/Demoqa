@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Page_layer.BookStore">
+      <class name="Test_layer.IMP">
         <methods>
-          <include name="Step6"/>
           <include name="teardown"/>
           <include name="tear"/>
           <include name="logger"/>
+          <include name="Step3"/>
         </methods>
-      </class> <!-- Page_layer.BookStore -->
+      </class> <!-- Test_layer.IMP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
